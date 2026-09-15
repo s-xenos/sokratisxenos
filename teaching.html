@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <!--Based on filip-os.github.io repo-->
+    <!--Last edit Sep 2026-->
+
+    <!--<script src="js_functions/includeHTML.js"></script>-->
+
+    <!--<script src="js_functions/get_theme_plain.js"></script>-->
+
+    <!--<script src="js_functions/fun_mode_button_plain.js"></script>-->
+
+    <head>
+        <!-- Metatags -->
+        <meta charset="UTF-8" />
+        <meta name="author" content="Sokratis" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Title -->
+        <title>Research</title>
+
+        <!-- css stylink link -->
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header>
+            <div class="Default_Header">
+                <nav class="desktop">
+                    <ul>
+					    <div class="Float_Left">
+                            <li><b>Sokratis Xenos, M.Eng., Ph.D.</b></li>
+						</div>
+                        <div class="Float_Right"> 
+                            <li><a href="index.html"><b>About</b></a></li>
+                            <li><a href="research.html"><b>Research</b></a></li>
+                            <li><a href="publications.html"><b>Publications</b></a></li>
+                            <li><a href="teaching.html"><b>Teaching</b></a></li>
+                            <!--<li><a href="posts.html"><b>Posts</b></a></li>
+                            <li><a href="links.html"><b>Links</b></a></li>*-->
+						</div>
+                    </ul>
+                </nav>
+				<nav class="mobile">
+				    <div class="topnav">
+                        <a href="#home" class="active"><b>Sokratis Xenos, M.Eng., Ph.D.</b></a>
+                        <div id="myLinks">
+                            <a href="index.html"><b>About</b></a>
+                            <a href="research.html"><b>Research</b></a>
+							<a href="publications.html"><b>Publications</b></a>
+                            <a href="teaching.html"><b>Teaching</b></a>
+                        </div>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </div>
+				</nav>
+            </div>
+        </header>
+
+        <!-- Main Body -->
+        <main>
+            <div class="Default_Container">
+                <h1>Teaching</h1>
+
+                <p>
+                    <b> ΓΕ0104: Partial Differential Equations.</b
+                    >
+                    Lecturer. Department of Mechanical Engineering, University of Thessaly, 
+                    Greece. The course in the forth semester of the undergraduate program.
+                    Curriculum includes: First order PDEs,  Method of characteristics,
+                    Weak and strong solutions, Second order PDEs, Classification of second 
+                    order PDEs, Wave equation in infinite and semi-infinite domains (D'Alembert's 
+                    solution), Fourier series, Method of sepration of variables, Heat 
+                    equation, Wave equation, Laplace's equation.
+                </p>
+
+                <!--<p>
+                    Course info (in Greek):
+                    <a href="https://advens.uowm.gr/wp-content/uploads/2020/05/S2_C3.pdf"
+                        >https://advens.uowm.gr</a
+                    >
+                </p>
+                <p>
+                    Class website:
+                    <a href="https://eclass.uowm.gr/">https://eclass.uowm.gr/</a>
+                </p>-->
+                <br />
+
+            </div>
+
+            <br />
+
+            <div class="Social_Menu">
+                <a href="https://github.com/s-xenos">
+                    <img
+                        src="media/svg_logos/github.svg"
+                        alt="Icon:github"
+                        class="svg_icons" />
+                </a>
+
+                <a href="https://gr.linkedin.com/in/socratesdxenos">
+                    <img
+                        src="media/svg_logos/linkedin.svg"
+                        alt="Icon:linkedin"
+                        class="svg_icons" />
+                </a>
+
+                <a href="https://scholar.google.com/citations?user=7Tz86-YAAAAJ&hl=en&oi=sra">
+                    <img
+                        src="media/svg_logos/google-scholar.svg"
+                        alt="Icon:google-scholar"
+                        class="svg_icons" />
+                </a>
+				<a href="https://www.researchgate.net/profile/Sokratis-Xenos">
+                    <img
+                        src="media/svg_logos/researchgate.svg"
+                        alt="Icon:researchgate"
+                        class="svg_icons" />
+                </a>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <div class="Default_Footer">
+                <div w3-include-html="html_includes/footer_default.html"></div>
+
+                <!-- Note: when using this include just reading the html file will not work 
+                (you need to open on a localhost) -->
+            </div>
+        </footer>
+    </body>
+
+	<!--Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon -->
+	<script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+         x.style.display = "none";
+      } else {
+         x.style.display = "block";
+      }
+    }
+	</script>
+</html>
